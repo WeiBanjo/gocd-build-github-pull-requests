@@ -9,7 +9,7 @@ import java.io.File;
 import java.util.Map;
 
 public class GitProvider implements Provider {
-    public static final String REF_SPEC = "+refs/heads/*:refs/remotes/origin/*";
+    public static final String REF_SPEC = "+refs/heads/*:refs/remotes/origin/*:refs/tags/*";
     public static final String REF_PATTERN = "refs/remotes/origin/";
 
     @Override
